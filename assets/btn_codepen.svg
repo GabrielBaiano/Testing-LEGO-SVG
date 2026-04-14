@@ -1,0 +1,7 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="400" height="100" fill="black" stroke="#00A3FF" stroke-width="6" />
+  <a xlink:href="https://codepen.io/GabrielBaiano" target="_top">
+    <rect x="50" y="25" width="300" height="50" fill="none" stroke="white" stroke-width="3" />
+    <text x="200" y="57" font-family="monospace" font-size="22" font-weight="bold" fill="white" text-anchor="middle">CODEPEN</text>
+  </a>
+</svg>

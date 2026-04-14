@@ -148,3 +148,7 @@ Ao tentar reproduzir layouts complexos de texto e imagem (como o Profile Card), 
 ### Fase 8: Herança Visual e Transparência
 Descobrimos que ícones com cantos arredondados precisam de um fundo sólido (branco) dentro do próprio SVG se forem usados em grids que não permitem transparência perfeita sem artefatos.
 - **Aprimoramento:** Adicionado `<rect fill="white">` em todos os ícones para garantir integração total com o fundo do GitHub e as `white_tiles`.
+### Phase 10: O Triunfo do Fatiamento (LEGO Slices)
+Para componentes que precisam ser "rodeados" por outros blocos menores sem o uso de tabelas (que inserem padding indesejado no GitHub):
+- **A Solução:** Fatiar o componente grande (ex: 400x300) em tiras horizontais que coincidam com a altura do grid (ex: 3 tiras de 100px de altura).
+- **Vantagem:** Essas tiras se comportam como "super-blocos" que permitem que o Markdown envolva o componente com blocos menores (os quadradinhos de estrela) de forma fluida e sem quebras.

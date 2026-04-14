@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#222222" />
+  <text x="20" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF4136">COACH 2</text>
+  <text x="20" y="70" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#39CCCC">ART DIRECTION</text>
+  <text x="20" y="90" font-family="Arial, sans-serif" font-size="10" fill="#CCCCCC">Sacred, Classical Art Deco.</text>
+  <text x="20" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#39CCCC">MOOD</text>
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="10" fill="#CCCCCC">Secret, cold, mysterious.</text>
+</svg>

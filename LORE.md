@@ -84,8 +84,34 @@ Para que o LEGO funcione, a peça não pode ter margens internas (padding) dentr
 
 ---
 
+## ⚡ Fase 5: Animação em Loop (O Truque Final)
+
+Para dar vida ao nosso LEGO, adicionamos movimento. O desafio era fazer o padrão de estrelas "andar" para a direita sem quebras visíveis.
+
+**A Técnica: O "Treadmill" (Esteira)**
+1. Criamos um grupo `<g>` com duas cópias do padrão lado a lado (uma em `x=0` e outra em `x=-100`).
+2. Animamos esse grupo para se mover de `0` até `100`.
+3. Como o padrão se repete perfeitamente a cada 100px, o reset da animação é imperceptível.
+
+**O Código:**
+```xml
+<g>
+  <use href="#pattern" x="0" />
+  <use href="#pattern" x="-100" />
+  <animateTransform 
+    attributeName="transform" 
+    type="translate" 
+    from="0 0" 
+    to="100 0" 
+    dur="3s" 
+    repeatCount="indefinite" />
+</g>
+```
+
+---
+
 ## 🏆 Resultado Final
-Ao combinar **Zero Whitespace** + **Full Bleed SVGs** + **align="top"**, conseguimos um bloco onde cada peça é individual e clicável, mas visualmente parecem uma única estrutura.
+Ao combinar **Zero Whitespace** + **Full Bleed SVGs** + **align="top"** + **SMIL Animations**, conseguimos um bloco onde cada peça é individual e clicável, mas visualmente parecem uma única estrutura dinâmica e viva.
 
 ---
 *Documentado por Antigravity (IA).*

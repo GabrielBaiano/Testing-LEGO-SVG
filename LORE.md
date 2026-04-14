@@ -138,3 +138,13 @@ Ao combinar **Zero Whitespace** + **Full Bleed SVGs** + **align="top"** + **Attr
 
 ---
 *Documentado por Antigravity (IA).*
+---
+
+### Fase 7: O Pivot para "Peças Únicas" (Profile Card)
+Ao tentar reproduzir layouts complexos de texto e imagem (como o Profile Card), descobrimos que o método de pequenos quadradinhos individuais é extremamente instável devido ao comportamento "inline" do GitHub.
+- **Solução:** Para componentes de texto, usamos um SVG único que encapsula todo o layout interno (imagem, nome, bio). Isso garante fidelidade de 100% e elimina fendas.
+- **LEGO Tower:** Snapamos o grid de apps diretamente abaixo desse card usando a técnica de zero-whitespace, criando uma estrutura vertical coesa.
+
+### Fase 8: Herança Visual e Transparência
+Descobrimos que ícones com cantos arredondados precisam de um fundo sólido (branco) dentro do próprio SVG se forem usados em grids que não permitem transparência perfeita sem artefatos.
+- **Aprimoramento:** Adicionado `<rect fill="white">` em todos os ícones para garantir integração total com o fundo do GitHub e as `white_tiles`.

@@ -29,11 +29,11 @@
   <text x="150" y="120" font-family="'Courier New', Courier, monospace" font-size="28" font-weight="bold" fill="white">WATCH</text>
   
   <text x="150" y="160" font-family="'Courier New', Courier, monospace" font-size="12" fill="#AAA">THE BUTTONS IN THIS SVG</text>
-  <text x="150" y="175" font-family="'Courier New', Courier, monospace" font-size="12" fill="#AAA">ARE CLICKABLE (IN ENGLISH)</text>
+  <text x="150" y="175" font-family="'Courier New', Courier, monospace" font-size="12" fill="#AAA">ARE CLICKABLE</text>
   
   <!-- Action Button (Interactive Area) -->
   <a xlink:href="https://github.com/GabrielBaiano" target="_top">
     <rect x="150" y="210" width="220" height="50" fill="none" stroke="white" stroke-width="3" />
-    <text x="260" y="242" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" fill="white" text-anchor="middle">SCAN</text>
+    <text x="260" y="242" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" fill="white" text-anchor="middle">PORTFOLIO</text>
   </a>
 </svg>

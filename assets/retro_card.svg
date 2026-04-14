@@ -1,0 +1,39 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Window Border and Background -->
+  <rect width="400" height="300" fill="black" stroke="#00A3FF" stroke-width="6" />
+  
+  <!-- Title Bar -->
+  <rect width="400" height="30" fill="#00A3FF" />
+  <text x="10" y="21" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="white">CREATIVE-WATCH-WARE</text>
+  
+  <!-- Title Bar Icons (Minimize, Close) -->
+  <rect x="340" y="5" width="20" height="20" fill="none" stroke="white" stroke-width="2" />
+  <line x1="345" y1="15" x2="355" y2="15" stroke="white" stroke-width="2" /> <!-- Minimize -->
+  
+  <rect x="370" y="5" width="20" height="20" fill="none" stroke="white" stroke-width="2" />
+  <line x1="375" y1="10" x2="385" y2="20" stroke="white" stroke-width="2" /> <!-- X -->
+  <line x1="385" y1="10" x2="375" y2="20" stroke="white" stroke-width="2" />
+  
+  <!-- Pixel Art Detective Icon (Simplified) -->
+  <g transform="translate(30, 60) scale(4)">
+    <rect x="5" y="5" width="20" height="25" fill="#E1E1E1" /> <!-- Coat -->
+    <rect x="10" y="0" width="10" height="5" fill="#E1E1E1" /> <!-- Hat -->
+    <rect x="5" y="4" width="20" height="2" fill="#E1E1E1" /> <!-- Brim -->
+    <rect x="8" y="8" width="4" height="2" fill="black" /> <!-- Eye -->
+    <rect x="18" y="8" width="4" height="2" fill="black" /> <!-- Eye -->
+    <rect x="10" y="15" width="2" height="15" fill="#333" /> <!-- Pencil/Detail -->
+  </g>
+
+  <!-- High Contrast Content -->
+  <text x="150" y="90" font-family="'Courier New', Courier, monospace" font-size="28" font-weight="bold" fill="white">CREATIVE</text>
+  <text x="150" y="120" font-family="'Courier New', Courier, monospace" font-size="28" font-weight="bold" fill="white">WATCH</text>
+  
+  <text x="150" y="160" font-family="'Courier New', Courier, monospace" font-size="12" fill="#AAA">THE BUTTONS IN THIS SVG</text>
+  <text x="150" y="175" font-family="'Courier New', Courier, monospace" font-size="12" fill="#AAA">ARE CLICKABLE (IN ENGLISH)</text>
+  
+  <!-- Action Button (Interactive Area) -->
+  <a xlink:href="https://github.com/GabrielBaiano" target="_top">
+    <rect x="150" y="210" width="220" height="50" fill="none" stroke="white" stroke-width="3" />
+    <text x="260" y="242" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" fill="white" text-anchor="middle">SCAN</text>
+  </a>
+</svg>

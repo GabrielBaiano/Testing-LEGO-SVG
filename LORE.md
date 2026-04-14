@@ -93,20 +93,24 @@ Para dar vida ao nosso LEGO, adicionamos movimento. O desafio era fazer o padrã
 2. Animamos esse grupo para se mover de `0` até `100`.
 3. Como o padrão se repete perfeitamente a cada 100px, o reset da animação é imperceptível.
 
-**O Código:**
+**O Código (CSS):**
 ```xml
-<g>
+<style>
+  @keyframes treadmill {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px); }
+  }
+  .star-group {
+    animation: treadmill 3s linear infinite;
+  }
+</style>
+<g class="star-group">
   <use href="#pattern" x="0" />
   <use href="#pattern" x="-100" />
-  <animateTransform 
-    attributeName="transform" 
-    type="translate" 
-    from="0 0" 
-    to="100 0" 
-    dur="3s" 
-    repeatCount="indefinite" />
 </g>
 ```
+> [!NOTE]
+> Usamos animação via **CSS (`<style>`)** em vez de SMIL (`<animateTransform>`) porque o GitHub tem maior compatibilidade com CSS dentro de SVGs renderizados via tag `<img>`.
 
 ---
 

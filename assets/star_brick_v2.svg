@@ -1,45 +1,28 @@
 <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <rect width="100" height="100" fill="black" />
   
-  <!-- Define Star Path: 5-pointed Rounded Star ("Fofinha") -->
+  <!-- Define the 5-pointed Rounded Star ("Fofinha") -->
   <defs>
     <path id="cute-star" d="M0 -30 L7 -10 L30 -7 L12 7 L17 30 L0 15 L-17 30 L-12 7 L-30 -7 L-7 -10 Z" fill="white" stroke="white" stroke-width="4" stroke-linejoin="round" />
+    
+    <!-- Define the Star Pattern (4 tilted stars at the edges) -->
+    <g id="star-pattern">
+      <!-- Top -->
+      <use href="#cute-star" transform="translate(50, 0) rotate(15)" />
+      <!-- Right -->
+      <use href="#cute-star" transform="translate(100, 50) rotate(15)" />
+      <!-- Bottom -->
+      <use href="#cute-star" transform="translate(50, 100) rotate(15)" />
+      <!-- Left -->
+      <use href="#cute-star" transform="translate(0, 50) rotate(15)" />
+    </g>
   </defs>
 
-  <!-- Stars with Rightward Treadmill Animation -->
-  <g transform="translate(0, 50) rotate(18)">
-    <use href="#cute-star">
-      <animate attributeName="x" values="0; 100" dur="4s" repeatCount="indefinite" />
-    </use>
-    <use href="#cute-star" x="-100">
-      <animate attributeName="x" values="-100; 0" dur="4s" repeatCount="indefinite" />
-    </use>
-  </g>
-
-  <g transform="translate(50, 0) rotate(-12)">
-    <use href="#cute-star">
-      <animate attributeName="x" values="0; 100" dur="5s" repeatCount="indefinite" />
-    </use>
-    <use href="#cute-star" x="-100">
-      <animate attributeName="x" values="-100; 0" dur="5s" repeatCount="indefinite" />
-    </use>
-  </g>
-
-  <g transform="translate(50, 100) rotate(25)">
-    <use href="#cute-star">
-      <animate attributeName="x" values="0; 100" dur="3s" repeatCount="indefinite" />
-    </use>
-    <use href="#cute-star" x="-100">
-      <animate attributeName="x" values="-100; 0" dur="3s" repeatCount="indefinite" />
-    </use>
-  </g>
-
-  <g transform="translate(100, 50) rotate(-20)">
-    <use href="#cute-star">
-      <animate attributeName="x" values="0; 100" dur="4.5s" repeatCount="indefinite" />
-    </use>
-    <use href="#cute-star" x="-100">
-      <animate attributeName="x" values="-100; 0" dur="4.5s" repeatCount="indefinite" />
-    </use>
-  </g>
+  <!-- Treadmill Animation (moving the whole pattern to the right) -->
+  <use href="#star-pattern">
+    <animate attributeName="x" values="0; 100" dur="4s" repeatCount="indefinite" />
+  </use>
+  <use href="#star-pattern" x="-100">
+    <animate attributeName="x" values="-100; 0" dur="4s" repeatCount="indefinite" />
+  </use>
 </svg>

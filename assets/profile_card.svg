@@ -17,14 +17,14 @@
 
   <!-- Bio Paragraph 1 -->
   <text x="40" y="230" font-family="Arial, sans-serif" font-size="16" fill="#333333">
-    <tspan x="40" dy="0">Desenvolvedor e entusiasta de experimentos criativos. Sempre</tspan>
-    <tspan x="40" dy="24">buscando formas de desafiar as limitações das ferramentas de</tspan>
-    <tspan x="40" dy="24">desenvolvimento, como transformar um README em um LEGO.</tspan>
+    <tspan x="40" dy="0">Developer and creative experiment enthusiast. Always seeking</tspan>
+    <tspan x="40" dy="24">ways to challenge the limitations of development tools, like</tspan>
+    <tspan x="40" dy="24">turning a README into a LEGO set.</tspan>
   </text>
 
   <!-- Bio Paragraph 2 -->
   <text x="40" y="320" font-family="Arial, sans-serif" font-size="16" fill="#333333">
-    <tspan x="40" dy="0">Atualmente explorando o potencial de componentes SVG modulares</tspan>
-    <tspan x="40" dy="24">e arquiteturas interativas direto no GitHub.</tspan>
+    <tspan x="40" dy="0">Currently exploring the potential of modular SVG components</tspan>
+    <tspan x="40" dy="24">and interactive architectures directly on GitHub.</tspan>
   </text>
 </svg>

@@ -1,9 +1,41 @@
-# Starry Grid V2 (Tilted) 🌌✨
+# Starry Sky V2 (Retro Integration) 🖥️🌌✨
 
-Este experimento usa o novo `star_brick_v2.svg` com estrelas inclinadas posicionadas nas bordas, criando um padrão geométrico complexo quando ladrilhado.
+O componente `retro_card.svg` agora está perfeitamente centralizado no coração do universo LEGO.
 
 <div align="center">
-<img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><br><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><br><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><br><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top"><img src="assets/star_brick_v2.svg" width="100" height="100" align="top">
+
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td colspan="4" rowspan="3"><a href="https://github.com/GabrielBaiano"><img src="assets/retro_card.svg" width="400" align="top"></a></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+    <td><img src="assets/star_brick_v2.svg" width="100" align="top"></td>
+  </tr>
+</table>
+
 </div>
 
 ---

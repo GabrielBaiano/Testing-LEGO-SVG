@@ -114,8 +114,27 @@ Para dar vida ao nosso LEGO, adicionamos movimento. O desafio era fazer o padrã
 
 ---
 
+## 🛠️ Fase 6: A Resiliência do SMIL (Atributo `x`)
+
+Descobrimos que tanto a animação de grupo (`<g>`) quanto o CSS (`<style>`) podem ser instáveis no GitHub devido ao proxy **Camo**. A forma mais robusta de animar é atacar diretamente o atributo `x` dos elementos.
+
+**O Truque de Compatibilidade:**
+Em vez de mover um contêiner, animamos o valor de `x` de cada cópia do padrão individualmente. Isso usa o SMIL mais básico possível, que raramente é bloqueado.
+
+**O Código Final (Ultra-Compatível):**
+```xml
+<use href="#star-pattern" x="0">
+  <animate attributeName="x" from="0" to="100" dur="3s" repeatCount="indefinite" />
+</use>
+<use href="#star-pattern" x="-100">
+  <animate attributeName="x" from="-100" to="0" dur="3s" repeatCount="indefinite" />
+</use>
+```
+
+---
+
 ## 🏆 Resultado Final
-Ao combinar **Zero Whitespace** + **Full Bleed SVGs** + **align="top"** + **SMIL Animations**, conseguimos um bloco onde cada peça é individual e clicável, mas visualmente parecem uma única estrutura dinâmica e viva.
+Ao combinar **Zero Whitespace** + **Full Bleed SVGs** + **align="top"** + **Attribute-based SMIL**, conseguimos uma interface que é ao mesmo tempo modular, clicável e animada de forma resiliente no GitHub.
 
 ---
 *Documentado por Antigravity (IA).*

@@ -1,6 +1,6 @@
 <svg width="400" height="100" viewBox="0 200 400 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g transform="translate(0, 0)">
-    <rect width="400" height="300" fill="black" stroke="#00A3FF" stroke-width="6" />
+    <rect width="400" height="300" fill="black" stroke="#2ECC40" stroke-width="6" />
     <g transform="translate(30, 60) scale(4)">
       <rect x="10" y="15" width="2" height="15" fill="#333" />
     </g>

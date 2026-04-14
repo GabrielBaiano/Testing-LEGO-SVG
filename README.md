@@ -24,6 +24,7 @@ Abaixo, quatro blocos iguais de estrelas são colocados lado a lado para mostrar
 1. **Zero Whitespace**: Os links `<a>` estão colados um no outro no código Markdown.
 2. **Full Bleed SVGs**: Os arquivos removem qualquer borda interna, preenchendo os 100x100 pixels completamente.
 3. **Pedaços 1x1**: Para garantir alinhamento perfeito sem tabelas, peças maiores (como a 2x2 amarela) são formadas por múltiplos blocos 1x1.
+4. **Attribute Animation**: Usamos SMIL no atributo `x` para animações em loop resilientes ao cache do GitHub.
 
 ---
 

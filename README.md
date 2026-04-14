@@ -16,3 +16,7 @@ Nesta versão, as imagens são colocadas lado a lado sem nenhum espaço entre os
 1. **Zero Whitespace**: Os links `<a>` estão colados um no outro no código Markdown.
 2. **Full Bleed SVGs**: Os arquivos removem qualquer borda interna, preenchendo os 100x100 pixels completamente.
 3. **Pedaços 1x1**: Para garantir alinhamento perfeito sem tabelas, peças maiores (como a 2x2 amarela) são formadas por múltiplos blocos 1x1.
+
+---
+
+📖 **Quer saber como chegamos aqui?** Confira a [LORE.md](./LORE.md) para ver todo o processo de desenvolvimento e os desafios superados.
